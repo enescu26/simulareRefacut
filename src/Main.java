@@ -11,7 +11,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start (Stage primaryStage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource( "UI/MainController.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource( "UI/mainWindow.fxml"));
         Parent root = fxmlLoader.load();
 
         InvoiceValidator invoiceValidator = new InvoiceValidator();
